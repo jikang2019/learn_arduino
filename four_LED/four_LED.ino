@@ -35,7 +35,6 @@ void loop()
         num = num + (strIn[i]-'0');
       }
     }
-    Serial.println(num,BIN); //显示串输入数字的二进制数
     
     // 输出，显示数字
     for(int i=0;i<4;i++){
